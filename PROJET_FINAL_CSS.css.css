@@ -1,0 +1,147 @@
+﻿
+.main{
+    scrollbar-width: none;
+    background:linear-gradient(90deg, rgb(156,252,248), rgb(110,123,251));
+    overflow-y : scroll;
+}
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900&display=swap');
+.main1{
+    scrollbar-width: none;
+    background:linear-gradient(100deg, yellow, orange);
+    overflow-y : scroll;
+}
+.navigation1{
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: orange;
+}
+.navigation-bouton1:hover{
+    background-color: yellow;
+    color: orange;
+    }
+.navigation{
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: rgb(110,123,251);
+}
+
+.navigation-element{
+        float: inline-start;
+}
+
+.navigation-bouton{
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      font-family:'Poppins', sans-serif;
+}
+.navigation-bouton1{
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      font-family:'Poppins', sans-serif;
+}
+
+.navigation-bouton:hover{
+    background-color: rgb(156,252,248);
+    color: rgb(110,123,251);
+}
+h1,h3
+{
+font-family:'Poppins', sans-serif;
+color: white;
+font-size : 50px;
+text-decoration: underline;
+}
+
+h2, h3
+{
+font-family:'Poppins', sans-serif;
+color: white;
+font-size : 30px;
+}
+h4{
+font-family:'Poppins', sans-serif;
+color: white;
+font-size : 20px;
+text-decoration: underline;
+}
+
+.para_main
+{
+font-family:'Poppins', sans-serif;
+color: white;
+font-size : 20px;
+}
+.para_main1
+{
+font-family:'Poppins', sans-serif;
+color: rgb(110,123,251);
+font-size : 20px;
+}
+.para_main1
+{
+font-family:'Poppins', sans-serif;
+color: orange;
+font-size : 20px;
+}
+.CONTACT
+{
+background-color:rgb(110,123,251);
+}
+
+.bouton
+{
+font-size: 30px
+}
+.para_conseils
+{
+font-family:'Poppins', sans-serif;
+color: black;
+font-size : 20px;
+
+}
+
+.intro
+{
+background-color:rgb(110,123,251);
+border: 3px double rgb(110,123,251)
+}
+.intro1
+{
+background-color:orange;
+border: 3px double orange;
+}
+.intro2
+{
+background-color:rgb(156,252,248);
+border: 3px double rgb(156,252,248);
+}
+.C
+{
+color: orange;
+}
+.B
+{
+color:green;
+}
+
+.X
+{
+color:red;
+}
+
+.Y
+{
+color:orange;
+}
+.Z
+{
+color:yellow;
+}
