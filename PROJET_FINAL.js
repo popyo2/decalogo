@@ -34,105 +34,45 @@
             document.querySelector("#r2").classList.add("X");
                 }
         let d=document.getElementById("q3").value;
-        if(d=="F8"){
+        if(d=="SI" | d=="Si" | d=="si"){
                 val3=val3+1;
-                document.getElementById("r3").innerHTML="Bravo c'est la bonne réponse !!";
+                document.getElementById("r3").innerHTML="¡¡FELICIDADES ESTA ES LA RESPUESTA CORRECTA !!";
                 document.querySelector("#r3").classList.remove("C");
                 document.querySelector("#r3").classList.add("B");
                 }
         else {
-            document.getElementById("r3").innerHTML="Dommage, la bonne réponse est: F8";
+            document.getElementById("r3").innerHTML="DEMASIADO LA RESPUESTA CORRECTA ES: SI";
             document.querySelector("#r3").classList.remove("C");
             document.querySelector("#r3").classList.add("X");
                 }
         let e=document.getElementById("q4").value;
-        if(e=="O(n²)"){
+        if(e=="NO" | e=="no" | e=="No"){
                 val4=val4+ 1;
-                document.getElementById("r4").innerHTML="Bravo c'est la bonne réponse !!";
+                document.getElementById("r4").innerHTML="¡¡FELICIDADES ESTA ES LA RESPUESTA CORRECTA !!";
                 document.querySelector("#r4").classList.remove("C");
                 document.querySelector("#r4").classList.add("B");
                 }
         else{
-            document.getElementById("r4").innerHTML="Dommage, la bonne réponse est: O(n²)";
+            document.getElementById("r4").innerHTML="DEMASIADO LA RESPUESTA CORRECTA ES: NO";
             document.querySelector("#r4").classList.remove("C");
             document.querySelector("#r4").classList.add("X");
                 }
         let f=document.getElementById("q5").value;
-        if(f=="O(n)"){
+        if(f=="NO" | f=="no" | f=="No"){
                 val5=val5+1;
-                document.getElementById("r5").innerHTML="Bravo c'est la bonne réponse !!";
+                document.getElementById("r5").innerHTML="¡¡FELICIDADES ESTA ES LA RESPUESTA CORRECTA !!";
                 document.querySelector("#r5").classList.remove("C");
                 document.querySelector("#r5").classList.add("B");
                 }
         else{
-            document.getElementById("r5").innerHTML="Dommage, la bonne réponse est: O(n)";
+            document.getElementById("r5").innerHTML="DEMASIADO LA RESPUESTA CORRECTA ES: NO";
             document.querySelector("#r5").classList.remove("C");
             document.querySelector("#r5").classList.add("X");
                 }
-        let g=document.getElementById("q6").value;
-        if(g=="HyperText Transfert Protocol" | g=="HyperTextTransfertProtocol"){
-                val6=val6+1;
-                document.getElementById("r6").innerHTML="Bravo c'est la bonne réponse !!";
-                document.querySelector("#r6").classList.remove("C");
-                document.querySelector("#r6").classList.add("B");
-                }
-        else{
-            document.getElementById("r6").innerHTML="Dommage, la bonne réponse est: HyperText Transfert Protocol";
-            document.querySelector("#r6").classList.remove("C");
-            document.querySelector("#r6").classList.add("X");
-                }
-        let h=document.getElementById("q7").value;
-        if(h=="Get et Post" | h=="GET et POST"){
-                val7=val7+1;
-                document.getElementById("r7").innerHTML="Bravo c'est la bonne réponse !!";
-                document.querySelector("#r7").classList.remove("C");
-                document.querySelector("#r7").classList.add("B");
-                }
-        else{
-            document.getElementById("r7").innerHTML="Dommage, la bonne réponse est: Get et Post";
-            document.querySelector("#r7").classList.remove("C");
-            document.querySelector("#r7").classList.add("X");
-                }
-        let i=document.getElementById("q8").value;
-        if(i=="C++" | i=="c++"){
-                val8=val8+1;
-                document.getElementById("r8").innerHTML="Bravo c'est la bonne réponse !!";
-                document.querySelector("#r8").classList.remove("C");
-                document.querySelector("#r8").classList.add("B");
-                }
-        else{
-            document.getElementById("r8").innerHTML="Dommage, la bonne réponse est: C++";
-            document.querySelector("#r8").classList.remove("C");
-            document.querySelector("#r8").classList.add("X");
-                }
-        let j=document.getElementById("q9").value;
-        if(j=="italique" | j=="Italique"){
-                val9=val9+1;
-                document.getElementById("r9").innerHTML="Bravo c'est la bonne réponse !!";
-                document.querySelector("#r9").classList.remove("C");
-                document.querySelector("#r9").classList.add("B");
-                }
-        else{
-            document.getElementById("r9").innerHTML="Dommage, la bonne réponse est: Italique";
-            document.querySelector("#r9").classList.remove("C");
-            document.querySelector("#r9").classList.add("X");
-                }
-        let k=document.getElementById("q10").value;
-        if(k=="American standard code for information interchange"){
-                val10=val10+1;
-                document.getElementById("r10").innerHTML="Bravo c'est la bonne réponse !!";
-                document.querySelector("#r10").classList.remove("C");
-                document.querySelector("#r10").classList.add("B");
-                }
-        else{
-            document.getElementById("r10").innerHTML="Dommage, la bonne réponse est: American standard code for information interchange";
-            document.querySelector("#r10").classList.remove("C");
-            document.querySelector("#r10").classList.add("X");
-                }
-
+        
         calcul= val1+ val2+ val3+ val4+ val5+ val6+ val7+ val8+ val9+ val10;
-        document.getElementById("rfin").innerHTML="TU PUNTAJE ES "+ calcul+"/10";
-        let pourc=parseFloat((parseFloat(calcul)/10)*100);
+        document.getElementById("rfin").innerHTML="TU PUNTAJE ES "+ calcul+"/5";
+        let pourc=parseFloat((parseFloat(calcul)/5)*100);
         document.getElementById("rfin1").innerHTML="TU PORCENTAJE DE ÉXITO ES "+ pourc+"%";
 
          if (calcul==0){
